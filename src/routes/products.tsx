@@ -111,7 +111,7 @@ function ProductsPage() {
               <Reveal key={title} delay={0.06 + index * 0.08}>
                 <article className="border-b border-border py-7">
                   <div className="flex gap-5">
-                    <span className="font-mono text-[10px] text-signal">E 0{index + 1}</span>
+                    <span className="shrink-0 whitespace-nowrap font-mono text-[10px] text-signal">E 0{index + 1}</span>
                     <div>
                       <h3 className="font-display text-2xl">{title}</h3>
                       <p className="mt-3 text-sm leading-6 text-muted-foreground">{copy}</p>

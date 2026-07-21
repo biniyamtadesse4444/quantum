@@ -12,8 +12,8 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Quantum Industrial Technologies | Smart Infrastructure" },
       { name: "description", content: "Intelligent hardware and software systems for access control, parking, institutions, and connected urban infrastructure." },
-      { property: "og:title", content: "Quantum Industrial Technologies" },
-      { property: "og:description", content: "Building smart infrastructure for the future of cities." },
+      { property: "og:title", content: "Quantum Industrial Technologies | Smart Infrastructure" },
+      { property: "og:description", content: "Intelligent hardware and software systems for access control, parking, institutions, and connected urban infrastructure." },
       { property: "og:image", content: gateUrl },
     ],
   }),
